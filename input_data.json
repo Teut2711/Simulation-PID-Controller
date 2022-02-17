@@ -1,0 +1,217 @@
+{
+  "0": {
+    "method": "LSODA",
+    "t_bound": 3,
+    "Fo_steady": 2,
+    "Q_steady": 1000090,
+    "Fv": 2,
+    "V_chamber": 3,
+    "rho_o": 293,
+    "To": 233.15,
+    "Km": 30,
+    "VL_frac": 0.7,
+    "controllers": {
+      "level": {
+        "set_point": 1.9,
+        "actions": {
+          "P": {
+            "prop_constant": 10,
+            "delay_time": 0
+          },
+          "D": {
+            "prop_constant": 5,
+            "delay_time": 0.011
+          }
+        }
+      },
+
+      "pressure": {
+        "set_point": 10000000,
+        "actions": {
+          "P": {
+            "prop_constant": 60000,
+            "delay_time": 0
+          }
+        }
+      }
+    }
+  },
+  "1": {
+    "method": "LSODA",
+    "t_bound": 3,
+    "Fo_steady": 2,
+    "Q_steady": 1000090,
+    "Fv": 2,
+    "V_chamber": 3,
+    "rho_o": 293,
+    "To": 233.15,
+    "Km": 30,
+    "VL_frac": 0.7,
+    "controllers": {
+      "level": {
+        "set_point": 1.9,
+        "actions": {
+          "P": {
+            "prop_constant": 10,
+            "delay_time": 0
+          },
+          "D": {
+            "prop_constant": 110,
+            "delay_time": 0.0001
+          }
+        }
+      },
+
+      "pressure": {
+        "set_point": 10000000,
+        "actions": {
+          "P": {
+            "prop_constant": 60000,
+            "delay_time": 0
+          }
+        }
+      }
+    }
+  },
+  "2": {
+    "method": "LSODA",
+    "t_bound": 3,
+    "Fo_steady": 2,
+    "Q_steady": 1000090,
+    "Fv": 2,
+    "V_chamber": 3,
+    "rho_o": 293,
+    "To": 233.15,
+    "Km": 30,
+    "VL_frac": 0.7,
+    "controllers": {
+      "level": {
+        "set_point": 1.9,
+        "actions": {
+          "P": {
+            "prop_constant": 179,
+            "delay_time": 0
+          },
+          "D": {
+            "prop_constant": 100,
+            "delay_time": 0.002
+          }
+        }
+      },
+
+      "pressure": {
+        "set_point": 10000000,
+        "actions": {
+          "P": {
+            "prop_constant": 60000,
+            "delay_time": 0
+          }
+        }
+      }
+    }
+  },
+
+  "3": {
+    "method": "LSODA",
+    "t_bound": 3,
+    "Fo_steady": 2,
+    "Q_steady": 1000090,
+    "Fv": 2,
+    "V_chamber": 3,
+    "rho_o": 293,
+    "To": 233.15,
+    "Km": 30,
+    "VL_frac": 0.7,
+    "controllers": {
+      "level": {
+        "set_point": 1.9,
+        "actions": {
+          "P": {
+            "prop_constant": 11000,
+            "delay_time": 0
+          },
+          "D": {
+            "prop_constant": 11,
+            "delay_time": 0.5
+          }
+        }
+      },
+
+      "pressure": {
+        "set_point": 10000000,
+        "actions": {
+          "P": {
+            "prop_constant": 60000,
+            "delay_time": 0
+          }
+        }
+      }
+    }
+  },
+  "4": {
+    "method": "LSODA",
+    "t_bound": 3,
+    "Fo_steady": 2,
+    "Q_steady": 1000090,
+    "Fv": 2,
+    "V_chamber": 3,
+    "rho_o": 293,
+    "To": 233.15,
+    "Km": 30,
+    "VL_frac": 0.7,
+    "controllers": {
+      "level": {
+        "set_point": 1.9,
+        "actions": {
+          "P": {
+            "prop_constant": 11,
+            "delay_time": 0
+          }
+        }
+      },
+
+      "pressure": {
+        "set_point": 10000000,
+        "actions": {
+          "P": {
+            "prop_constant": 60000,
+            "delay_time": 0
+          }
+        }
+      }
+    }
+  },
+  "5": {
+    "method": "LSODA",
+    "t_bound": 3,
+    "Fo_steady": 2,
+    "Q_steady": 1000090,
+    "Fv": 2,
+    "V_chamber": 3,
+    "rho_o": 293,
+    "To": 233.15,
+    "Km": 30,
+    "VL_frac": 0.7,
+    "controllers": {
+      "level": {
+        "set_point": 1.9,
+        "actions": {
+          "P": {
+            "prop_constant": 11,
+            "delay_time": 0
+          }
+        }
+      },
+
+      "pressure": {
+        "set_point": 10000000,
+        "actions": {
+          "P": {
+            "prop_constant": 60000,
+            "delay_time": 0
+          }
+        }
+      }
+    }
+  }
+}
